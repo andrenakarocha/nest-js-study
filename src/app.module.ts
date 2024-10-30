@@ -21,7 +21,7 @@ import { APP_GUARD } from '@nestjs/core';
       name: 'long',
       ttl: 60000,
       limit: 100,
-    }])
+    }]),
   ],
   controllers: [AppController],
   providers: [AppService, {
